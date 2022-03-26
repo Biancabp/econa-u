@@ -316,6 +316,7 @@ main{
 .convidados {
     max-width: 1200px;
     height: 733px;
+    margin: auto;
 }
 
 .convidados-textos {
@@ -455,7 +456,7 @@ main{
 
 .s-text{
     float: right;
-    padding-right: 97px;
+    padding-right: 221px;
     padding-top: 69px;
 }
 
@@ -476,7 +477,7 @@ main{
 
 .s-slide-img{
     float: left;
-    padding: 44px 0px 0px 97px;
+    padding: 44px 0px 0px 98px;
 }
 
 .s-slide button{
@@ -503,3 +504,325 @@ main{
     width: 306px;
 }
 /*fim seção 3*/
+
+#ultimas-do-econacu{
+    background: linear-gradient(90deg, #131A22 7.11%, #2F3E51 74.04%);
+    box-shadow: 0px 20px 20px #8492A6;
+    width:1200px;
+    margin:auto;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+#pontos-esquerda{
+    background-image:url("assets/img/pontos.svg");
+    background-repeat: no-repeat;
+    background-position: -20px 22px;
+}
+
+#pontos-direita{
+    background-image: url("assets/img/pontos.svg");
+    background-repeat:no-repeat;
+    background-position:right 361px;
+}
+
+
+
+#container div{
+    max-width:49.6%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+#container div:first-child{
+    padding-left:96px;
+    padding-right:54px;
+}
+
+#container div:last-child{
+    padding-right:96px;
+}
+/* ESTILIZANDO O LADO ESQUERDO */
+/* PRIMEIRO TITULO */
+
+#pontos-direita h2{
+    font-weight: 800;
+    font-size:28px;
+    line-height:33.6px;
+    padding-top:47px;
+    margin-left:96px;
+    margin-bottom:50px;
+    color:#3C4858;
+}
+
+/* SUBTITULO H3 */
+#container div h3{
+    font-weight: 800;
+    font-size: 18px;
+    line-height:21.6px;
+    color:#E5E9F2;
+    margin-top:0;
+}
+
+/* SUBTITULO H5 */
+#container div h5{
+    font-weight:300;
+    font-size:12px;
+    line-height:14.4px;
+    color:#8492A6;
+}
+
+/* PARAGRAFO DA ESQUERDA */
+#container p{
+    font-weight:400;
+    font-size:14px;
+    line-height:22.4px;
+    color:#C0CCDA;
+    margin-bottom:56px;
+}
+
+/* BOTÃO DO LADO ESQUERDO */
+#ler-mais{
+    width:159px;
+    height:38px;
+    padding: 8px 48px;
+    border: 1px solid #FAB900;
+    font-weight: 700;
+    font-size:14px;
+    line-height:22.4px;
+    color:#FAB900;
+    text-decoration: none;
+    text-align: center;
+}
+
+#ler-mais:hover{
+    background-color:#FAB900;
+    color:black;
+    transition:500ms;
+}
+
+/* FIM DA ESTILIZAÇÃO DO LADO ESQUERDO */
+/* INICIO DA ESTILIZAÇÃO DO LADO DIREITO */
+
+.clipping{
+    font-weight: 700;
+    font-size:10px;
+    line-height:16px;
+    color:#C0CCDA;
+    padding: 3px 15px;
+    border: 1px solid #8492A6;
+    margin-right:16px;
+}
+
+#container article h4{
+    font-weight:300;
+    font-size:12px;
+    line-height:19.2px;
+    color:#C0CCDA;
+    margin-bottom:8px;
+}
+
+.noticia-tribuna{
+    font-weight: 700;
+    font-size: 16px;
+    line-height:22.4px;
+    color:#C0CCDA;
+    text-decoration: none;
+}
+
+#container div article{
+    margin-bottom:49px;
+}
+
+#container div article:last-child{
+    margin-bottom:31px;
+}
+
+#ver-tudo{
+    font-weight: 700;
+    font-size:14px;
+    line-height:14px;
+    color:#FFC82C;
+    text-decoration: none;
+    display:block;
+    width:100px;
+    margin-left: auto;
+    margin-top:53px;
+}
+
+#ver-tudo img{
+    margin-right:11px;
+    vertical-align: middle;
+}
+
+#container div h3::after{
+    content:'';
+    display:block;
+    margin-top:11px;
+    width:60px;
+    height:4px;
+    background-color: #FFC82C;
+}
+
+#container div:last-child article:first-child h4{
+    margin-top:0;
+}
+
+/* ESTILIZANDO SESSÃO */
+#sessao-edicoes-anteriores{
+    width:1200px;
+    height:265px;
+    margin:auto;
+    position: relative;
+    background: linear-gradient(268.7deg, rgba(64, 222, 99, 0.17) 4.8%, rgba(229, 233, 242, 0) 66.94%);
+}
+
+/* SETAS DIRECIONADAS PARA A ESQUERDA */
+
+#edicoes-anteriores{
+    background-image: url("assets/img/seta-esquerda-1.svg");
+    background-repeat:no-repeat;
+    background-position:right 41px;
+
+}
+
+#seta-esquerda2{
+    width:100%;
+    height:100%;
+    background-image: url("assets/img/seta-esquerda-2.svg");
+    background-repeat:no-repeat;
+    background-position:right 27px;
+}
+
+#seta-esquerda3{
+    width:100%;
+    height:100%;
+    background-image: url("assets/img/seta-esquerda-3.svg");
+    background-repeat:no-repeat;
+    background-position: 1043px 13px;
+}
+
+/* SETAS DIRECIONADAS PARA A DIREITA */
+#background-setas-direita{
+    background-image:url("assets/img/seta-direita-1.svg");
+    background-repeat:no-repeat;
+    height:151.99px;
+    width:100%;
+    position:absolute;
+    bottom:-90px;
+}
+
+#seta-direita2{
+    width:100%;
+    height:100%;
+    background-image: url("assets/img/seta-direita-2.svg");
+    background-repeat:no-repeat;
+    background-position: left 14px;;
+}
+
+#seta-direita3{
+    width:100%;
+    height:100%;
+    background-image:url("assets/img/seta-direita-3.svg");
+    background-repeat: no-repeat;
+    background-position:28px 28px;
+}
+
+/* TITULO H2 */
+#seta-esquerda3 h2{
+    font-weight:800;
+    font-size:28px;
+    line-height: 33.6px;
+    color:#273444;
+    padding-top:74px;
+    margin-bottom:10px;
+    margin-top:0;
+}
+
+#seta-esquerda3 h2::before{
+    content:'';
+    display:inline-block;
+    width:90px;
+    height:2px;
+    background-color:#23C947;
+    vertical-align:middle;
+    margin-right:12px;
+}
+
+/* PARAGRAFO */
+#seta-esquerda3 p{
+    font-weight:500;
+    font-size:16px;
+    line-height: 22.4px;
+    color:#000;
+    margin-left:102px;
+    margin-top:0;
+    margin-bottom:51px;
+}
+
+#pdf{
+    display: inline-block;
+    font-weight: 700;
+}
+
+/* LINKS DE DONWLOAD */
+#downloads{
+    margin-left:174px;
+}
+
+#sessao-edicoes-anteriores a{
+    color:#F9FAFC;
+    display:inline-block;
+    width:102px;
+    height:99px;
+    vertical-align: middle;
+    border-radius:5.66px;
+    text-align:center;
+    font-weight:700;
+    font-size:28px;
+    line-height: 28px;
+    box-sizing: border-box;
+    padding-top:14px;
+    margin-right:15px;
+    text-decoration: none;
+}
+
+.cinza {
+    background-color: #273444;
+}
+
+.download-verde{
+    background-color: #23C947;
+}
+
+#aguardando-publicação-cor{
+    background-color:#D3DCE6;
+    color:#3C4858;
+    font-weight:400;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#aguardando-publicação{
+    font-size:12px;
+    text-decoration: none;
+}
+
+.baixar{
+    font-size:14px;
+    line-height: 19.6px;
+    padding-top:23px;
+    text-decoration: underline;;
+}
+
+#aguardando-publicacao{
+    font-style:italic;
+    padding-bottom:14px;
+    text-decoration:none;
+    line-height:14.4px;
+}
+
+span{
+    display:block;
+}
