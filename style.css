@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background: url(/assets/img/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ff-rubik{
+    font-family: 'Rubik', sans-serif;
+}
+
+.d-flex{
+   display: inline-flex;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+
+.fw-extra-bold{
+    font-weight: 800;
+}
+
+.text-white{
+    color: #FFFFFF;
+}
+
+.text-dark{
+    color: #273444 !important;
+}
+
+.text-prata{
+    color: #3C4858;
+}
+
+.text-neve{
+    color: #F9FAFC !important;
+}
+
+.text-fumaça{
+    color: #E0E6ED;
+}
+
+.text-yellow{
+    color: #FAB900;
+}
+
+.text-yellow-secondary{
+    color: #FEE1AE;
+}
+
+.text-red{
+   color: #EB5151;
+}
+
+.text-gray{
+    color: #8492A6;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-28{
+    font-size: 28px;
+}
+
+.fs-48{
+    font-size: 48px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.mb-awe-27{
+    margin-bottom: 27px;
+}
+
+.mb-awe-100{
+    margin-bottom: 100px;
+}
+
+.ps-awe-40{
+    padding-left: 40px;
+}
+
+.pt-awe-80{
+    padding-top: 80px;
+}
+
+.pt-awe-90{
+    padding-top: 90px;
+}
+
+.pb-awe-13{
+    margin-bottom: 13px;
+}
+
+.pb-awe-22{
+    margin-bottom: 22px;
+}
+
+.pb-awe-48{
+    padding-bottom: 48px;
+}
+
+.pb-awe-62{
+    padding-bottom: 62px;
+}
+
+.pb-awe-75{
+    padding-bottom: 75px;
+}
+
+.pb-awe-136{
+    padding-bottom: 136px;
+}
+
+.ps-awe-8{
+    padding-left: 8px;
+}
+
+.pe-awe-40{
+    padding-right: 40px;
+}
+
+.pe-awe-47{
+    padding-right: 47px;
+}
+
+.pe-awe-100{
+    padding-right: 100px;
+}
+
+.pe-awe-129{
+    padding-right: 129px;
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.botao a{
+    position: absolute;
+    background: #FAB900;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.shadow{
+    position: relative;
+    margin-right: 10px;
+    width: 218px;
+    height: 43px;
+    left: 141px;
+    border: 0.5px solid #FFFFFF;
+}
+
+.quadro{
+    background: linear-gradient(180.1deg, #111111 27.81%, rgba(17, 17, 17, 0) 92.2%);
+    opacity: 0.8;
+}
+
+.notice{
+    color: #E0E6ED;
+}
+
+.linha{
+    height: 1px;
+    background: #8492A6;
+}
+
+.dates{
+    padding-left: 10%;
+    margin-right: 15%;
+}
+
+.dates ul{
+    list-style: none;
+}
+
+.save{
+    float: right;
+    cursor: pointer;
+    padding-bottom: 61px;
+}
