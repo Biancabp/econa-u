@@ -797,14 +797,23 @@ main{
 #aguardando-publicação-cor{
     background-color:#D3DCE6;
     color:#3C4858;
-    font-weight:400;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
     font-size: 24px;
-    line-height: 24px;
+    line-height: 100%;
+    text-align: center;
 }
 
 #aguardando-publicação{
     font-size:12px;
     text-decoration: none;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #3C4858;
 }
 
 .baixar{
